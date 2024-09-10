@@ -158,17 +158,22 @@ section .name{
   width: 75%;
   height: auto;
   box-shadow: hsl(0, 1%, 58%) 0 0 10px;
-  background-color: var(--black);
   margin-inline: 1rem;
   display: inline-block;
 }
+.slider .not-slide{
+  width: 100%;
+  height: auto;
+  box-shadow: hsl(0, 1%, 58%) 0 0 10px;
+}
+.not-slide img,
 .slide img{
   width: 100%;
   height: auto;
   object-fit: contain ;
 }
 .project-title{
-  margin-left: 4.5rem;
+  margin-left: 3rem;
   margin-top: -0.3rem;
   font-family: serif;
 }
@@ -189,6 +194,12 @@ section .name{
   height: 100%;
   background-color: #EC6800FC;
   border-radius: 12px;
+}
+.status1{
+  width: 100%;
+  height: 100%;
+  background-color: #EC6800FC;
+  border-radius: 12px
 }
 .percent{
   width: 100%;
