@@ -1,0 +1,258 @@
+:root {
+    --black: #000;
+    --gray: #6d6969;
+    --dark: #adaaaa;
+    --white: #fff;
+    --tertiary_white: #ebe9e5;
+    --red: #E30713;
+    --background: #f6f7f8;
+    --footer:#151925;
+}
+body {
+    font-size: 15pt;
+    background-color: var(--white);
+    width: 90dvw;
+    overflow-x: hidden;
+}
+hr {
+  width: 100%;
+  height: 0.3vh;
+  background: linear-gradient(45deg, #449FF0, #F07544);
+  margin-left: 0.5em;
+}
+.navbar {
+  position: fixed;
+  margin-left: -0.4em;
+  margin-top: -0.5em;
+  width: 100dvw;
+  height: 7dvh;
+  box-shadow: 0px 6px 2px #2E3131;
+  border-radius: 7px;
+  background-color: var(--white);
+  overflow: hidden;
+  display: flex;
+}
+.navimage{
+  width: 10dvw;
+  height: 5dvh;
+  margin-left: 0.4em;
+  margin-top: 0.4em;
+}
+.navimage1{
+  margin-left: 13em;
+}
+.welcome-msg{
+  font-size: 0.9rem;
+  font-weight: bolder;
+  font-family: calibri;
+  animation: fadein 5s forwards;
+}
+section{
+  margin: 0.5em;
+  margin-top: 1em;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+section .profile {
+  width: 72%;
+  height: 35dvh;
+  margin-left: 2.2em;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(45deg, #26B99D, #E5541E, #32A2E4);
+  background-size: 20% 10%;
+  border-radius: 100%;
+  animation: color-cycle 2s infinite;
+}
+.profile img{
+  object-fit: cover;
+  width: 93%;
+  height: 93%;
+  border-radius: 100%;
+}
+.biotext{
+  display: flex;
+  align-items: center;
+}
+.biotext p{
+  margin-left: 2em;
+  font-weight: bolder;
+  font-family: calibri;
+  color: var(--gray);
+}
+section .name{
+  margin-left: 0.3em;
+  color: #449FF0;
+  font-style: italic;
+  
+}
+.text{
+  font-weight: bolder;
+  font-family: calibri;
+  margin-left: 2em;
+  margin-top: -1.2em;
+  color: var(--gray);
+}
+.title{
+  margin-left: 3em;
+  color: #F07544;
+}
+.skill{
+  margin-left: 4em;
+  color: #449FF0;
+}
+.certificate{
+  width: 100%;
+  overflow: hidden;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.certificate img{
+  object-fit: contain;;
+  width: 100%;
+  height: 20dvh;
+}
+.certificate p{
+  font-family: impact;
+  color: var(--black);
+  text-align: center;
+}
+.title1{
+  width: 100%;
+  overflow: hidden;
+  height: auto;
+  display: flex;
+  align-items: center ;
+}
+.title1 img{
+  position: relative;
+  object-fit: contain;
+  width: 20%;
+  height: 10%;
+  border-radius: 100%;
+  animation: slide-in 9s infinite;
+  transition: left 2s;
+}
+.project{
+  width: 95%;
+  height: auto;
+  margin: 1em;
+  margin-top: -0em;
+  background-color: #96F2BDFC;
+  box-shadow: 0 0 8px #858585FC, 0 0 8px #858585FC, 0 0 8px #858585FC, 0 0 8px #858585FC;
+  border-radius: 5px;
+}
+.project .slider{
+  width: 100%;
+  overflow-x:auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  
+}
+.slider .slide{
+  width: 75%;
+  height: auto;
+  box-shadow: hsl(0, 1%, 58%) 0 0 10px;
+  background-color: var(--black);
+  margin-inline: 1rem;
+  display: inline-block;
+}
+.slide img{
+  width: 100%;
+  height: auto;
+  object-fit: contain ;
+}
+.project-title{
+  margin-left: 4.5rem;
+  margin-top: -0.3rem;
+  font-family: serif;
+}
+.project p{
+  font-family: calibri;
+  margin-top: -1rem;
+  font-size: 0.9em;
+  text-align: center;
+}
+.project-status{
+  width: 70%;
+  height: 1.5dvh;
+  background-color: var(--white);
+  border-radius: 12px;
+}
+.status{
+  width: 50.5%;
+  height: 100%;
+  background-color: #EC6800FC;
+  border-radius: 12px;
+}
+.percent{
+  width: 100%;
+  height: 4dvh;
+  display: flex;
+  align-items: center;
+}
+
+.percent h6{
+  margin: 0.2em;
+  color: #51B4E9FC;
+}
+.project .progress,
+.project .progress1{
+  text-align: right;
+  margin-right: 1rem;
+  color:  #EC6800FC;
+  font-weight: bolder;
+}
+.project .progress1{
+  font-weight: 400;
+}
+.language{
+  width: 70%;
+  height: 6dvh;
+  display: flex;
+  align-items: center;
+  margin-left: 0.3em; 
+  overflow: hidden;
+}
+.language img{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+
+
+
+@keyframes color-cycle{
+  0%{
+    background-position: 0% 0%;
+  }
+  100%{
+    background-position: 100% 100%;
+  }
+}
+
+@keyframes fadein{
+  0%{
+    opacity: 0;
+    color: var(--red);
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+@keyframes slide-in{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 5;
+  }
+}
