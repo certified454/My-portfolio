@@ -54,6 +54,18 @@ section{
   height: auto;
   overflow: hidden;
 }
+footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 98dvw;
+  background-color: var(--footer);
+  margin:0;
+  height: auto;
+  overflow: hidden;
+  color: var(--white);
+}
 section .profile {
   width: 72%;
   height: 35dvh;
@@ -242,9 +254,77 @@ section .name{
   height: 100%;
   object-fit: contain;
 }
-
-
-
+footer .about{
+  width: 95%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0.5rem;
+}
+.about h3,
+.send{
+  font-family: fantasy;
+  font-size: 1.5rem;
+  color: #449FF0;
+}
+.about p{
+  margin-top: -0.8rem;
+  font-family: calibri;
+  text-align: center;
+  font-size: 0.9em;
+  font-weight: 400;
+  color: #D6D5D5;
+}
+footer .contact{
+  width: 80%;
+  height: auto;
+  border: 6px solid  var(--black);
+  overflow: hidden;
+}
+.contact label{
+  margin-left: 1rem;
+  font-size: 1rem;
+  font-family: Helvetica;
+}
+.contact input{
+  width: 100%;
+  height: 4dvh;
+  padding-left: 1rem;
+  text-decoration: none;
+  list-style: none;
+  color: var(--white);
+  border: 1px solid  #449FF0;
+  background-color:  var(--black);
+}
+.contact textarea{
+  color: var(--white);
+  text-decoration: none;
+  list-style-type: none;
+  padding-left: 1rem;
+  border: 1px solid #449FF0;
+  background-color: var(--black);
+}
+.contact button{
+  width: 50%;
+  height: 5dvh;
+  margin-left: 25%;
+  font-size: 0.9em;
+  color: var(--white);
+  background: linear-gradient(60deg, #96F2BDFC, #459FF0, #96F2BDFC);
+  border-radius: 5px;
+  border: none;
+}
+.contact button:focus{
+  background: linear-gradient(45deg, #96F2BDFC,#EC6800FC, #96F2BDFC );
+}
+ul{
+  display: flex;
+  flex-direction: row;
+  gap: 0.5em;
+  font-size: 1em;
+}
 
 @keyframes color-cycle{
   0%{
