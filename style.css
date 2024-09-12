@@ -328,8 +328,9 @@ ul{
   margin-top: -0.5rem;
   margin-right: 1rem;
 }
-ul a {
+a i {
   color: var(--tertiary_white);
+  text-decoratoin: none;
 }
 .licence{
   display: flex;
