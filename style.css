@@ -328,7 +328,7 @@ ul{
   margin-top: -0.5rem;
   margin-right: 1rem;
 }
-ul a i {
+ul a {
   color: var(--tertiary_white);
 }
 .licence{
