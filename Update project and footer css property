@@ -60,6 +60,7 @@ footer{
   justify-content: center;
   align-items: center;
   width: 98dvw;
+  margin: 0;
   background-color: var(--footer);
   height: auto;
   overflow: hidden;
@@ -156,7 +157,7 @@ section .name{
   margin-top: -0em;
   background-color: #fff;
   box-shadow: 0 0 8px #858585FC, 0 0 8px #858585FC, 0 0 8px #858585FC, 0 0 8px #858585FC;
-  border-radius: 1px;
+  border-radius: 3px;
 }
 .project .slider{
   width: 100%;
