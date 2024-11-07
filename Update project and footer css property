@@ -61,7 +61,6 @@ footer{
   align-items: center;
   width: 98dvw;
   background-color: var(--footer);
-  margin:0;
   height: auto;
   overflow: hidden;
   color: var(--white);
@@ -157,7 +156,7 @@ section .name{
   margin-top: -0em;
   background-color: #fff;
   box-shadow: 0 0 8px #858585FC, 0 0 8px #858585FC, 0 0 8px #858585FC, 0 0 8px #858585FC;
-  border-radius: 5px;
+  border-radius: 1px;
 }
 .project .slider{
   width: 100%;
