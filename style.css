@@ -59,8 +59,7 @@ footer{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 98dvw;
-  margin: 0;
+  width: 98dv;
   background-color: var(--footer);
   height: auto;
   overflow: hidden;
