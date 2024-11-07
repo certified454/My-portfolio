@@ -155,7 +155,7 @@ section .name{
   height: auto;
   margin: 1em;
   margin-top: -0em;
-  background-color: #96F2BDFC;
+  background-color: #fff;
   box-shadow: 0 0 8px #858585FC, 0 0 8px #858585FC, 0 0 8px #858585FC, 0 0 8px #858585FC;
   border-radius: 5px;
 }
